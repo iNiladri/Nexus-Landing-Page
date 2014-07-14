@@ -1,8 +1,30 @@
-    @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+	@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700");    
     @import url("http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+    * {
+	    margin:none;
+    }
     body {
-		padding: 60px 0px;
-		background-color: rgb(220, 220, 220);
+   		background-color: rgb(220, 220, 220);
+   		font-family:Lato,Arial,sans-serif;
+	}
+		
+	#header {
+		background:#f40;
+		padding:60px 0 20px 0;
+	}
+	
+	.featured {
+		background:#cccccc;
+		padding:50px 0;
+	}
+	.featured img {
+		border:3px solid #bbbbbb;
+	}
+	#featuredcontent {
+		padding:0 60px;
+	}
+	#featuredcontent h1,#featuredcontent h2,#featuredcontent h3 {
+		font-weight:700;
 	}
     
     .event-list {

@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/navbar.css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,6 +21,115 @@
 </head>
 
 <body>
+
+	<header role="banner" class="navbar navbar-fixed-top navbar-inverse">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+	        </div>
+	        <div class="navbar-inverse side-collapse in">
+	          <nav role="navigation" class="navbar-collapse">
+	            <ul class="nav navbar-nav">
+	              <li><a href="#Home">Home</a></li>
+	              <li><a href="#users">Users</a></li>
+	              <li><a href="http://placesforlove.com">Places</a></li>
+	            </ul>
+	          </nav>
+	        </div>
+	      </div>
+	    </header>
+	<div id="header">
+		<div class="container">
+				<div class="col-md-4" id="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="col-md-8" id="nav">
+					<div class="navbar-inverse side-collapse in">
+					<nav role="navigation" class="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>Home</li>
+						<li>About</li>
+						<li>Contact</li>
+						<li>Portfolio</li>
+					</ul>
+					</nav>
+					</div>
+				</div>
+		</div>
+	</div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="http://placehold.it/1200x500/3498db/2980b9" alt="First slide">
+                        <div class="carousel-caption">
+                            <h3>
+                                First slide</h3>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/1200x500/9b59b6/8e44ad" alt="Second slide">
+                        <div class="carousel-caption">
+                            <h3>
+                                Second slide</h3>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/1200x500/34495e/2c3e50" alt="Third slide">
+                        <div class="carousel-caption">
+                            <h3>
+                                Third slide</h3>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
+                        href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
+                        </span></a>
+            </div>
+            <div class="main-text hidden-xs">
+                <div class="col-md-12 text-center">
+                    <h1>
+                        Static Headline And Content</h1>
+                    <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
+                    <div class="">
+                        <a class="btn btn-clear btn-sm btn-min-block" href="http://www.jquery2dotnet.com/">Login</a><a class="btn btn-clear btn-sm btn-min-block"
+                            href="http://www.jquery2dotnet.com/">Registration</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="push">
+</div>
+	<div class="featured">
+		<div class="container">
+			<div class="col-md-4">
+				<img src="http://placehold.it/300/eeeeee" />
+			</div>
+			<div class="col-md-8" id="featuredcontent">
+				<h2>An Awesome Landing Page</h2>
+				<h4><span>Try It Now!</span>You will just fall in Love with it!</h4>
+				<h4 class="fa fa-check-square">Fully Responsive</h4><br/>
+				<h4 class="fa fa-check-square">Cross Browser Compatible</h4><br/>
+				<h4 class="fa fa-check-square">Tons of features</h4>
+			</div>
+		</div>
+	</div>
+	<div class="calendar">
 	    <div class="container">
 			<div class="row">
 				<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
@@ -122,6 +233,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
   	<script src="http://code.jquery.com/jquery.js"></script>
   	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
